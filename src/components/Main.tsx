@@ -1,13 +1,11 @@
 function Main() {
   return (
     <div className="App-main">
-        <div className="center-container1">
-
-            <button type="submit">Play</button>
+        <div className="center-container">
+            <button className="home-buttons" type="submit" >PLAY</button>
         </div>
-        <div className="center-container1">
-
-            <button type="submit">Solve</button>
+        <div className="center-container">
+            <button className="home-buttons" type="submit" >SOLVE</button>
         </div>
        
     </div>
