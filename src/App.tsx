@@ -4,11 +4,13 @@ import Header from './components/Header'
 import Home from './components/Home'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Play from './components/Play'
+import Solve from './components/Solve'
 
 const paths = [
-    { path: '/play', element: <Home /> },
-    { path: '/solve', element: <Home /> },
-    { path: '/', element: <Home /> },
+    { path: '/play', element: <Play /> },
+    { path: '/solve', element: <Solve /> },
+    { path: '*', element: <Home /> },
 ]
 
 const router = createBrowserRouter(paths);
