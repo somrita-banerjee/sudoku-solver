@@ -1,4 +1,4 @@
-function Main() {
+function Home() {
   return (
     <div className="App-main">
         <div className="center-container">
@@ -12,4 +12,4 @@ function Main() {
     )
 }
 
-export default Main
+export default Home
