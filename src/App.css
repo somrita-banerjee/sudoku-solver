@@ -1,3 +1,22 @@
 .App-header {
-    font-size:xx-large;
+    font-size: 6rem;
+    font-family: sans-serif;
+    margin-top: 0;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-container1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh; 
+   outline: black 2px;
+}
+.App-main {
+   width: 118cap;
+   height:40cap;
+   background-color: rgb(189, 50, 207);
 }
