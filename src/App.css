@@ -47,3 +47,30 @@
 body {
     margin: 0;
 }
+
+/* css for 9x9 soduko grid */
+.grid {
+    display: grid;
+}
+
+.grid-row {
+    display: flex;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+
+.cell:hover {
+    background-color: rgb(161, 26, 179);
+    color: white;
+}
