@@ -51,11 +51,26 @@ body {
 /* css for 9x9 soduko grid */
 .grid {
     display: grid;
+    outline: 3px solid black;
+    justify-content: center;
+    width: 560px;
+    margin: 0 auto;
 }
+
+
+
+
 
 .grid-row {
     display: flex;
 }
+.grid-row:nth-child(3n) {
+    border-bottom: 2px solid black;
+    
+}
+
+
+
 
 .cell {
     display: flex;
@@ -66,8 +81,11 @@ body {
     background-color: white;
     border: 1px solid black;
     cursor: pointer;
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
+}
+.cell:nth-child(3n) {
+    border-right: 3px solid black;
 }
 
 .cell:hover {
