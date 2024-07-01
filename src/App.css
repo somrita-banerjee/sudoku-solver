@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App-header {
     font-size: 6rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -12,36 +16,9 @@
    
 }
 
-.center-container {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   outline: black 2px;
-}
-
 .home-buttons{
-    border-radius: 15px;
-    height: 80px;
-    margin: 20px;
-    font-family:  "Arial, Helvetica, sans-serif" ;
-    font-size: 50px;
-    width: 350px;
-    background-color: rgb(182, 27, 161);
-    color: aliceblue;
-    box-shadow: 0px 2px 6px black;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
-
-}
-.home-buttons:hover {
-    box-shadow: 0px 10px 20px black;
-    cursor: pointer;
-}
-.App-main {
-   background-color: rgb(161, 26, 179);
-   padding: 90px;
-   height: 300px;
-   
 }
 
 body {
